@@ -1,0 +1,61 @@
+{
+  "students": [
+    {
+      "id": "1", "name": "Aarav Sharma", "rollNo": "21CSE001", "department": "CSE", "email": "aarav.sharma@college.edu", "attendance": 92,
+      "marks": { "Mathematics": 88, "Physics": 81, "Computer Science": 95, "English": 79 },
+      "assignments": { "Mathematics": 90, "Physics": 85, "Computer Science": 92, "English": 80 }
+    },
+    {
+      "id": "2", "name": "Diya Patel", "rollNo": "21ECE014", "department": "ECE", "email": "diya.patel@college.edu", "attendance": 84,
+      "marks": { "Mathematics": 72, "Physics": 68, "Computer Science": 75, "English": 70 },
+      "assignments": { "Mathematics": 78, "Physics": 74, "Computer Science": 80, "English": 72 }
+    },
+    {
+      "id": "3", "name": "Rohan Verma", "rollNo": "21IT022", "department": "IT", "email": "rohan.verma@college.edu", "attendance": 71,
+      "marks": { "Mathematics": 58, "Physics": 52, "Computer Science": 61, "English": 55 },
+      "assignments": { "Mathematics": 60, "Physics": 55, "Computer Science": 65, "English": 58 }
+    },
+    {
+      "id": "4", "name": "Sneha Reddy", "rollNo": "21MECH009", "department": "MECH", "email": "sneha.reddy@college.edu", "attendance": 62,
+      "marks": { "Mathematics": 45, "Physics": 38, "Computer Science": 52, "English": 48 },
+      "assignments": { "Mathematics": 50, "Physics": 42, "Computer Science": 55, "English": 47 }
+    },
+    {
+      "id": "5", "name": "Kabir Khan", "rollNo": "21CSE031", "department": "CSE", "email": "kabir.khan@college.edu", "attendance": 88,
+      "marks": { "Mathematics": 35, "Physics": 42, "Computer Science": 38, "English": 30 },
+      "assignments": { "Mathematics": 40, "Physics": 45, "Computer Science": 38, "English": 35 }
+    },
+    {
+      "id": "6", "name": "Meera Joshi", "rollNo": "21EEE018", "department": "EEE", "email": "meera.joshi@college.edu", "attendance": 78,
+      "marks": { "Mathematics": 50, "Physics": 54, "Computer Science": 48, "English": 52 },
+      "assignments": { "Mathematics": 45, "Physics": 49, "Computer Science": 46, "English": 44 }
+    },
+    {
+      "id": "7", "name": "Arjun Nair", "rollNo": "21IT037", "department": "IT", "email": "arjun.nair@college.edu", "attendance": 90,
+      "marks": { "Mathematics": 64, "Physics": 60, "Computer Science": 70, "English": 58 },
+      "assignments": { "Mathematics": 66, "Physics": 62, "Computer Science": 72, "English": 60 }
+    },
+    {
+      "id": "8", "name": "Priya Singh", "rollNo": "21CIV004", "department": "CIVIL", "email": "priya.singh@college.edu", "attendance": 68,
+      "marks": { "Mathematics": 62, "Physics": 41, "Computer Science": 55, "English": 49 },
+      "assignments": { "Mathematics": 58, "Physics": 45, "Computer Science": 52, "English": 50 }
+    }
+  ],
+  "interventions": [
+    {
+      "id": "1", "studentId": "4", "type": "Faculty Meeting", "sessionDate": "2026-09-20", "facultyName": "Dr. R. Kumar",
+      "suggestedAction": "Attendance improvement plan with weekly progress check", "followUpDate": "2026-10-05",
+      "status": "In Progress", "progress": "Improving", "notes": "Attendance rose from 55% to 62%."
+    },
+    {
+      "id": "2", "studentId": "5", "type": "Mentoring Session", "sessionDate": "2026-09-25", "facultyName": "Prof. Anita Desai",
+      "suggestedAction": "Weekly mentoring in Mathematics and Physics with remedial worksheets", "followUpDate": "2026-10-02",
+      "status": "In Progress", "progress": "No Change", "notes": "Missed one session."
+    },
+    {
+      "id": "3", "studentId": "3", "type": "Parent Meeting", "sessionDate": "2026-10-01", "facultyName": "Dr. S. Iyer",
+      "suggestedAction": "Inform parents about the attendance shortfall", "followUpDate": "2026-10-20",
+      "status": "Planned", "progress": "Not Started", "notes": ""
+    }
+  ]
+}
